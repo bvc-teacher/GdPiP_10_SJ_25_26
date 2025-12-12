@@ -5,18 +5,19 @@ t = turtle.Turtle()
 t.speed(0) 
 
 s = turtle.Screen()
-s.setup(width=600, height=800) 
-s.setworldcoordinates(-180, -380, 180, 380) 
-
+s.setup(width=800, height=600) 
 t.pensize(2)
 t.pencolor('black')
 
-t.penup()
-t.goto(0, -60) 
+t.goto(0, 270) 
 t.pendown()
 
 t.fillcolor('yellow')
 t.begin_fill()
+
+
+
+
 
 
 
